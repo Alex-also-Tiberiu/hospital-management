@@ -43,8 +43,8 @@ Below are the primary entities you’ll find in this codebase:
 ---
 
 ## Results
-the application is building without errors
-the application is starting without errors
+the application is building without errors<br>
+the application is starting without errors<br>
 All the test pass successfully
 
 ### Fixes:
