@@ -42,7 +42,7 @@ Below are the primary entities you’ll find in this codebase:
 
 ---
 
-## Results:
+## Results
 the application is building without errors
 the application is starting without errors
 All the test pass successfully
@@ -59,7 +59,7 @@ All the test pass successfully
 - Fixed N+1 query on appointment lookups using @EntityGraph (fetch join), verified with show-sql that it dropped from N+1 queries down to 1.
 - Switched from field injection (@Autowired on fields) to constructor injection for testability.
 
-### Patterns used;
+### Patterns used:
 - Basic GlobalExceptionHandler implemented to centralize main exceptions and return the right status code for REST APIs.
 - Decoupled internal business logic model as appointment and patient from the object which REST APIs returns, decided to use record as a response to prevent mutable objects. 
 
